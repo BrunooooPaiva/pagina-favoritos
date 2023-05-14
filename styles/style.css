@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-image: url('../assets/imagem.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+    height: 13%;
+    padding: 2%;
+}
+
+.menu__texto {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.menu__links {
+    display: flex;
+    gap: 15px;
+}
+
+.menu__links__link {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+.principal__filmes {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.principal__filmes__img {
+    width: 11%;
+    margin: 3% 0% 0% 0%;
+}
